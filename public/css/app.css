@@ -7,30 +7,35 @@ body {
   background-size: cover;
   background-position: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1em;
+}
+body h1 {
+  color: gold;
+  font-size: 60px;
 }
 body section {
   border: white 2px solid;
   height: 70%;
   width: 50%;
-}
-body section div {
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-  height: 50%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
 }
-body section div div {
-  border: orange solid 2px;
-  width: 20%;
-  height: 80%;
+body section .card {
+  height: 48%;
+  width: 24%;
 }
-body section div div img {
-  width: 90%;
-  height: 80%;
-  border: black 3px solid;
+body button {
+  height: 100px;
+  width: 200px;
+  background-color: orange;
+  color: green;
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=app.css.map */
